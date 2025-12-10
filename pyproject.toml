@@ -1,7 +1,7 @@
 [project]
-name = "vtuber-asr"
+name = "funasr-fastapi"
 version = "0.1.0"
-description = "Add your description here"
+description = "FunASR FastAPI Server"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -17,8 +17,4 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
-    "modelscope>=1.32.0",
-    "pytest>=9.0.1",
-    "websockets>=15.0.1",
-]
+dev = ["modelscope>=1.32.0", "pytest>=9.0.1", "websockets>=15.0.1"]
